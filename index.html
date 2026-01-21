@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="htmlTag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butterfly Effect | أثر الفراشة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="butterfly-container"></div>
+    <div class="container">
+        <div class="top-bar">
+            <nav class="navbar">
+                <a href="#" onclick="showPage('traces')" id="navTraces" class="active">🦋 Traces</a>
+                <a href="#" onclick="showPage('authors')" id="navAuthors">👥 Authors</a>
+            </nav>
+            <button id="langBtn" class="lang-btn">العربية</button>
+        </div>
+
+        <div id="tracesPage" class="page-content">
+            <header class="header">
+                <h1 id="mainTitle" class="main-title">Butterfly Effect 🦋</h1>
+                <p id="subTitle" class="subtitle">Small acts that create beautiful changes</p>
+            </header>
+            <section class="glass-card form-section">
+                <h2 id="formHeading">💜 Leave Your Trace</h2>
+                <form id="postForm">
+                    <input type="text" id="titleInput" placeholder="Title..." required>
+                    <textarea id="bodyInput" rows="3" placeholder="Describe your effect..." required></textarea>
+                    <button type="submit" id="submitBtn" class="main-btn">Release the Butterfly 🦋</button>
+                </form>
+            </section>
+            <div id="loading" class="loading-status"></div>
+            <div id="postsContainer"></div>
+        </div>
+
+        <div id="authorsPage" class="page-content" style="display: none;">
+            <header class="header">
+                <h2 id="authorsTitle" class="main-title">Butterfly Authors 👥</h2>
+                <p id="authorsSubtitle" class="subtitle" style="text-align: center; opacity: 0.7;">Click on an author to see their traces</p>
+            </header>
+            <div id="authorsContainer" class="authors-grid"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
