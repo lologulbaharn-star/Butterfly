@@ -2,7 +2,7 @@ const i18n = {
     en: {
         title: "Butterfly Effect 🦋", subtitle: "Small acts that create beautiful changes",
         navTraces: "🦋 Traces", navAuthors: "👥 Authors",
-        formH: "💜 Leave Your Trace", submit: "Release the Butterfly 🦋",
+        formH: "🦋 Leave Your Trace", submit: "Release the Butterfly 🦋",
         edit: "Edit", delete: "Remove", loading: "Tracing flight...",
         authorsT: "Butterfly Authors 👥", authorsSub: "Click an author to see their traces",
         langBtn: "العربية", confirm: "Delete this trace?"
@@ -10,9 +10,9 @@ const i18n = {
     ar: {
         title: "أثر الفراشة 🦋", subtitle: "أفعال صغيرة تصنع تغييرات جمالية",
         navTraces: "🦋 الآثار", navAuthors: "👥 المؤلفون",
-        formH: "💜 اترك أثرك الجميل", submit: "أطلق الفراشة 🦋",
+        formH: "🦋 اترك أثرك الجميل", submit: "أطلق الفراشة 🦋",
         edit: "تعديل", delete: "إزالة", loading: "جاري تتبع الأثر...",
-        authorsT: "مُطلقو الفراشات 👥", authorsSub: "اضغط على مؤلف لرؤية آثاره",
+        authorsT: "مُطلِقو الفراشات 👥", authorsSub: "اضغط على مؤلف لرؤية آثاره",
         langBtn: "English", confirm: "هل تريد حذف هذا الأثر؟"
     }
 };
